@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #B91C1C;
+    --dark-gray: #374151;
+    --off-white: #F3F4F6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0rem;
+}
+
+.container-center{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-heading {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+#btn-translate{
+background-color: var(--primary-color) ;
+padding: 1rem;
+margin: 2rem;
+text-align: center;
+color: black;
+border-radius: 1rem;
+font-weight: 600;
+font-size: larger;
+margin-left: 12rem;
+}
